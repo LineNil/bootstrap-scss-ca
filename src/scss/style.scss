@@ -1,0 +1,28 @@
+// Importer Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Importer dine egendefinerte variabler
+@import "variables";
+
+
+
+.background-img{
+  background-image: url(../../dist/css/img/login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+.lineh1 {
+  font-family: map-get($font-families, 'line'); // Use exact key 'heading'
+  font-size: 2rem;
+}
+
+/*.bg-primary-custom{
+  background-color:#CBE2C9 ;
+  } */
+  
+.bg-primary{
+  background-color: $custom-log-in-bg;
+}
